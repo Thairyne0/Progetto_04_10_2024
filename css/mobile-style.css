@@ -1,0 +1,105 @@
+/* Your styles here */
+html {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: "Open sans",sans-serif;
+    line-height: 1.65;
+}
+
+
+
+header div:first-child {
+    padding: 40px;
+    background-color: black;
+    text-align: center;
+}
+
+header div img {
+    width: 200px;
+}
+
+header div:last-child{
+    height: 350px;
+    padding: 50px;
+    text-align: center;
+    background-image: url(../images/banner.jpg);
+    object-fit: center;
+}
+
+header h1{
+    margin-bottom: 20px;
+    color: #25a2c3;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+header button {
+    margin-top: 60px;
+    color: white;
+    background-color: #f04c2f;
+    width: 150px;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+main h2 {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: #25a2c3;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+main p {
+    padding: 20px;
+}
+
+main img:first-of-type {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+}
+
+main #testimonianza h2 {
+    color: white;
+}
+
+main #testimonianza p {
+    color: white;
+}
+
+main #testimonianza h3 {
+    color: white;
+}
+
+main #testimonianza h4 {
+    color: white;
+}
+
+
+
+main #testimonianza {
+    padding: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #e22d0e;
+}
