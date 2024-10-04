@@ -29,7 +29,7 @@ header div:last-child{
     padding: 50px;
     text-align: center;
     background-image: url(../images/banner.jpg);
-    object-fit: center;
+    background-size: cover;
 }
 
 header h1{
@@ -108,18 +108,29 @@ main #testimonianza {
     margin-bottom: 50px;
 }
 
-main #first-article-image {
-    height: 500px;
+main #first-article-image, main #second-article-image, main #third-article-image {
+    height: 450px;
     width: 430px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid gray;
+    border: 1px solid rgb(197, 197, 197);
     background-image: url(../images/foto1.jpg);
-    object-fit: contain;
-    
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 40px;
 }
 
-#first-article-image div {
-    text-align:justify;
+main #second-article-image {
+    background-image: url(../images/foto2.jpg);
+}
+
+main #third-article-image {
+    background-image: url(../images/foto3.jpg);
+}
+
+main #first-article-image h2, main #second-article-image h2, main #third-article-image h2 {
+    margin-top: 300px;
 }
 
