@@ -109,10 +109,17 @@ main #testimonianza {
 }
 
 main #first-article-image {
-
+    height: 500px;
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+    background-image: url(../images/foto1.jpg);
+    object-fit: contain;
+    
 }
 
-main #first-img {
-    border-radius: 0px;
-    object-fit: fill;
+#first-article-image div {
+    text-align:justify;
 }
+
