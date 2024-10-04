@@ -80,6 +80,7 @@ main img:first-of-type {
 }
 
 main #testimonianza h2 {
+    font-size: 2em;
     color: white;
 }
 
@@ -88,6 +89,8 @@ main #testimonianza p {
 }
 
 main #testimonianza h3 {
+    font-weight: 500;
+    font-size: 1.4em;
     color: white;
 }
 
@@ -102,4 +105,14 @@ main #testimonianza {
     padding-left: 20px;
     padding-right: 20px;
     background-color: #e22d0e;
+    margin-bottom: 50px;
+}
+
+main #first-article-image {
+
+}
+
+main #first-img {
+    border-radius: 0px;
+    object-fit: fill;
 }
