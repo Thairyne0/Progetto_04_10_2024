@@ -134,3 +134,33 @@ main #first-article-image h2, main #second-article-image h2, main #third-article
     margin-top: 300px;
 }
 
+footer {
+    padding-top: 45px;
+    text-align: center;
+    height: 350px;
+    background-color: #25a2c3;
+}
+
+footer h2 {
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+footer a {
+    color: white;
+    display: block;
+}
+
+footer p {
+    color: white;
+}
+
+footer hr {
+    width: 200px;
+}
+
+
+
